@@ -1,0 +1,85 @@
+            body{
+                background-color: cornflowerblue;
+                }
+            h1 {
+                font-family: cursive;
+                border:5px;
+                border-style:outset;
+                border-color: blue;
+                 border-radius:15px 50px; 
+                padding: 40px;
+                text-align:left;
+                color: blue;
+                background-color: aqua;
+            }
+            h1:hover{
+                   text-shadow: 2px 2px darkblue;
+                 text-decoration: overline;
+            }
+            
+            h2{
+                font-family: sans-serif;
+                border:5px inset blue;
+                outline:black groove 2px thin;
+                padding: 10px;
+                text-align: left;
+                color:blue;
+                background-color: aqua;
+                border-radius: 15px 50px;
+            }
+            h2:hover {
+                text-shadow: 2px 2px darkblue;
+                text-decoration: overline;
+            }
+            
+            p{
+                text-indent: 30px;
+                font-size:140%;
+            }
+            
+ul {
+    list-style-type: none;
+    clear :both;
+}
+li{
+    display:inline;
+    background-color: aqua;
+    padding:10px;
+    border-radius: 10px 40px;
+    border:5px solid blue;
+    font-size: 140%;
+}
+            a:link {
+                color:green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:hover {
+                color:red;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:visited {
+                color:purple;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:active {
+                color:yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            img{
+                height: 254px;
+                max-wiidth: 254px;
+                vertical-align: middle;
+                clear:none;
+                border:8px solid blue;
+                border-radius: 138px;
+              \ align-items: center;
+}
+            address{
+                text-align: right;
+                color:blue;
+                font-size: 1.25em;
+            }
