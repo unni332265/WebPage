@@ -48,6 +48,7 @@ li{
     border-radius: 10px 40px;
     border:5px solid blue;
     font-size: 140%;
+    margin:10px;
 }
             a:link {
                 color:green;
@@ -76,10 +77,11 @@ li{
                 clear:none;
                 border:8px solid blue;
                 border-radius: 138px;
-              \ align-items: center;
+              vertical-align: middle;
+                
 }
             address{
                 text-align: right;
                 color:blue;
                 font-size: 1.25em;
-            }
+}
